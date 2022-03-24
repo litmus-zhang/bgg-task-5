@@ -1,0 +1,33 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  width: fit-content;
+  align-items: flex-start;
+  background-color: #ffc1fe;
+  padding: 1rem;
+  border-radius: 10px;
+  gap: 10px;
+  .top {
+    .title {
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+    .Subtitle {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: gray;
+    }
+  }
+
+  .bottom {
+    .mainText {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .subtext {
+      color: gray;
+      margin-bottom: 10px;
+    }
+  }
+}

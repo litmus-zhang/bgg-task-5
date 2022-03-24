@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+  background-color: #b54dd0;
+  border: 1px solid #b54dd0;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: capitalize;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
